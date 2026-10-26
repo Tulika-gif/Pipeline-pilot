@@ -1,0 +1,6 @@
+{
+  "name": "Pipeline Pilot — AI-Powered DevOps Assistant",
+  "description": "AI-powered DevOps assistant that analyzes CI/CD pipeline failures, identifies likely root causes, suggests fixes, and helps developers validate changes before applying them.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

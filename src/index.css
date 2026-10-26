@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --color-violet-primary: #6C45F5;
+  --color-purple-deep: #21164F;
+  --color-lavender-bg: #F5F2FF;
+  --color-purple-surface: #EDE7FF;
+  --color-text-main: #211D35;
+  --color-text-secondary: #716B86;
+  --color-border-subtle: #E5DFF5;
+  --color-error-accent: #E5485D;
+  --color-success-accent: #20A878;
+}
+
+html {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbars for logs and diffs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(108, 69, 245, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(108, 69, 245, 0.4);
+}
